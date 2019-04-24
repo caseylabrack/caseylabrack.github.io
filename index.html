@@ -5,6 +5,35 @@
     <title>Casey Labrack</title>
   </head>
   <body>
-    <h1>sup</h1>
+    <h1 style="margin-left: auto; margin-right: auto;">Casey Labrack</h1>
+    <div class="project">
+      <a href="projects/dc-gunshots.pdf">
+        <img srcset="thumbs/chart.png,
+             thumbs/chart@2x.png 2x,
+             thumbs/chart@3x.png 3x"
+             src="thumbs/chart.png"
+             class="thumbnail" alt="Thumbnail for project 'A Map of Gunshots in D.C.'">
+       </a>
+      <p>Gunshots</p>
+    </div>
+    <div class="project">
+     <a href="https://caseylabrack.github.io/death-facts/">
+       <img srcset="thumbs/death-thumbs.png,
+            thumbs/death-thumbs.png 2x,
+            thumbs/death-thumbs.png 3x"
+            src="thumbs/death-thumbs.png"
+            class="thumbnail" alt="Thumbnail for project 'Death Facts'">
+      </a>
+      <p>Death</p>
+    </div>
   </body>
+  <style media="screen">
+    body { max-width: 960px; margin-left: auto; margin-right: auto; }
+    a { text-decoration: none; }
+    .project { font-variant-caps: all-small-caps; text-align: center; display: inline-block; margin-left: 2em; margin-right: 2em;}
+    .project img { width: 160px; border: 1px solid black; }
+    .project p { font-size: 1.2em; margin-top: .5em; }
+    /* .thumbnail img { width: 160px; margin-left: 1em; margin-right: 1em; border: 1px solid black; } */
+    /* .thumbnail a p {text-decoration: none; color: #999; } */
+  </style>
 </html>
