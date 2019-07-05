@@ -2,22 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>---</title>
+    <title>Casey Labrack dot com</title>
   </head>
   <body>
-    <h1 style="margin-left: auto; margin-right: auto;">---</h1>
+    <!-- <h1 style="margin-left: auto; margin-right: auto;">Casey Labrack</h1> -->
     <article id="portfolio">
-      <div class="project">
-        <a href="projects/dc-gunshots.pdf">
-          <img srcset="thumbs/gunshots.png,
-               thumbs/gunshots@2x.png 2x,
-               thumbs/chart@3x.png 3x"
-               src="thumbs/gunshots.png.png"
-               class="thumbnail" alt="Thumbnail for project 'A Map of Gunshots in D.C.'">
-         </a>
-        <p>Gunshots</p>
-        <!-- map, data viz, life and death -->
-      </div>
       <div class="project">
        <a href="https://caseylabrack.github.io/death-facts/">
          <img srcset="thumbs/death.png,
@@ -27,50 +16,62 @@
               class="thumbnail" alt="Thumbnail for project 'Death Facts'">
         </a>
         <p>Death</p>
-        <!-- data viz, life and death -->
+      </div>
+      <div class="project">
+       <a href="https://observablehq.com/@shastabolicious/the-evolution-of-tax-rates-in-america">
+         <img srcset="thumbs/taxes.png,
+              thumbs/taxes@2x.png 2x,
+              thumbs/taxes@3x.png 3x"
+              src="thumbs/taxes.png"
+              class="thumbnail" alt="Thumbnail for project 'The Evolution of Tax Rates in America'">
+        </a>
+        <p>Taxes</p>
+      </div>
+      <div class="project">
+        <a href="projects/dc-gunshots.pdf">
+          <img srcset="thumbs/gunshots.png,
+               thumbs/gunshots@2x.png 2x,
+               thumbs/chart@3x.png 3x"
+               src="thumbs/gunshots.png.png"
+               class="thumbnail" alt="Thumbnail for project 'A Map of Gunshots in D.C.'">
+         </a>
+        <p>Gunshots</p>
       </div>
       <div class="project">
        <a href="https://observablehq.com/@shastabolicious/distribution-of-incomes-in-america-2014">
-         <img srcset="thumbs/distribution.png,
-              thumbs/distribution@2x.png 2x,
-              thumbs/distribution@3x.png 3x"
-              src="thumbs/distribution.png"
+         <img srcset="thumbs/inequality.png,
+              thumbs/inequality@2x.png 2x,
+              thumbs/inequality@3x.png 3x"
+              src="thumbs/inequality.png"
               class="thumbnail" alt="Thumbnail for project 'Distribution of Incomes in America, 2014'">
         </a>
         <p>Inequality</p>
-        <!-- data viz, economics -->
-      </div>
-      <div class="project">
-       <a href="https://observablehq.com/@shastabolicious/cbos-past-projections-of-productivity-growth">
-         <img srcset="thumbs/productivity.png,
-              thumbs/productivity@2x.png 2x,
-              thumbs/productivity@3x.png 3x"
-              src="thumbs/productivity.png"
-              class="thumbnail" alt="Thumbnail for project 'CBO's Past Projections of Productivity Growth'">
-        </a>
-        <p>Productivity</p>
-        <!-- data viz, economics -->
       </div>
       <div class="project">
        <a href="https://observablehq.com/@shastabolicious/distribution-of-incomes-in-america-2014">
-         <img srcset="thumbs/distribution.png,
-              thumbs/distribution@2x.png 2x,
-              thumbs/distribution@3x.png 3x"
-              src="thumbs/distribution.png"
+         <img src="thumbs/income growth thumb.gif"
               class="thumbnail" alt="Thumbnail for project 'Death Facts'">
         </a>
         <p>Income</p>
         <!-- data viz -->
       </div>
+      <div class="project">
+       <a href="http://caseylabrack.com/dinocade/">
+         <img src="thumbs/dinoblaster.gif"
+              class="thumbnail" alt="Thumbnail for videogame 'Dinoblaster'">
+        </a>
+        <p>Dinosaurs</p>
+        <!-- data viz -->
+      </div>
   </article>
   </body>
   <style media="screen">
-    body { max-width: 960px; margin-left: auto; margin-right: auto; }
+    body { max-width: 1200px; margin-left: auto; margin-right: auto; }
     a { text-decoration: none; }
-    #portfolio { display: flex; flex-flow: row wrap; }
-    #portfolio .project { margin-right: auto; min-width: 320px; }
+    #portfolio { display: flex; flex-flow: row wrap; justify-content: center; }
+    #portfolio .project { min-width: 340px; padding: 10px; margin-top: 4em; }
     .project { font-variant-caps: all-small-caps; text-align: center; }
-    .project img { width: 200px; }
+    .project img { width: 320px; border: 1px solid rgb(75,75,75); }
     .project p { font-size: 1.5em; margin-top: .5em; }
   </style>
 </html>
