@@ -46,7 +46,7 @@ function update() {
 }
 
 function permalinkOut () {
-  const link = `https://www.CaseyLabrack.com/sketches/lissajous-figures/index.html?`
+  const link = `https://CaseyLabrack.com/sketches/lissajous-figures/index.html?`
            + `fx=${select("#fx").value()}` + `&fy=${select("#fy").value()}`
            + `&mx=${select("#mx").value()}` + `&my=${select("#my").value()}`
            + `&phi=${select("#phi").value()}` + `&r=${select("#res").checked() ? 10 : 1}`
