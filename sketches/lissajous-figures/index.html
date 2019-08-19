@@ -1,0 +1,22 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <div id="canvas"></div>
+    <p>Click for a new random <a href="https://en.wikipedia.org/wiki/Lissajous_curve">lissajous figure</a>.</p>
+    <p>This one's permalink is:<br/> <a id="permalink"></a></p>
+    <p>Create your own:</p>
+    <label for="fx">frequency x</label><input type="range" min="1" max="25" id="fx" class="inputs"><br>
+    <label for="fy">frequency y</label><input type="range" min="1" max="25" id="fy" class="inputs"><br>
+    <label for="mx">modulator x</label><input type="range" min="1" max="25" id="mx" class="inputs"><br>
+    <label for="my">modulator y</label><input type="range" min="1" max="25" id="my" class="inputs"><br>
+    <label for="phi">phi</label><input type="range" min="0" max="359" id="phi" class="inputs"><br>
+    <label for="res">hi res (smooth, slow to generate)</label><input type="checkbox" id="res" class="inputs">
+
+<script src="sketch.js"></script>
+
+</body></html>

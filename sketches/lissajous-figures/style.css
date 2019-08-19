@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 10px;
+}
+canvas {
+  display: block;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+a { text-decoration: none; color: #008ea3;}
+
+#permalink { font-size: .8em; font-family: monospace; }
