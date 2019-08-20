@@ -2,7 +2,7 @@ let p
 let c = 25
 
 function setup() {
-  createCanvas(400, 400).parent("canvas").mouseClicked(randomOne);
+  createCanvas(320, 320).parent("canvas").mouseClicked(randomOne);
   selectAll('.inputs').forEach(z => z.changed(update))
   colorMode(HSB, 360, 100, 100, 1)
 
