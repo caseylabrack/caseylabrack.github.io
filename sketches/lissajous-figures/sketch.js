@@ -1,5 +1,5 @@
 let p
-let c = 25
+let c
 
 function setup() {
   createCanvas(320, 320).parent("canvas").mouseClicked(randomOne);
@@ -8,22 +8,14 @@ function setup() {
 
   const params = new URLSearchParams(window.location.search)
 
-  // print(params.get("fx") , params.get("fy") , params.get("mx") , params.get("my") , params.get("phi") , params.get("r"))
-
   if(params.get("fx") && params.get("fy") && params.get("mx") && params.get("my") && params.get("phi") && params.get("r")) {
-    p = ljpoints(width / 2, height / 2,
-                 params.get("fx"), params.get("fy"),
-                 params.get("mx"), params.get("my"),
-                 params.get("phi"), params.get("r")
-                )
     select("#fx").value(params.get("fx"))
     select("#fy").value(params.get("fy"))
     select("#mx").value(params.get("mx"))
     select("#my").value(params.get("my"))
     select("#phi").value(params.get("phi"))
     select("#res").checked(params.get("r")==10 ? true : false)
-    c = params.get("r")==10 ? 25 : 100
-    permalinkOut()
+    update()
   } else {
     randomOne()
     print("random one")
@@ -40,40 +32,27 @@ function update() {
                 select("#mx").value(), select("#my").value(),
                 select("#phi").value(), select("#res").checked() ? 10 : 1
               )
-  c = select("#res").checked() ? 25 : 100
-  redraw()
-  permalinkOut()
-}
+  c = select("#res").checked() ? 200 : 5000
 
-function permalinkOut () {
+  print(c)
+
   const link = `https://CaseyLabrack.com/sketches/lissajous-figures/index.html?`
            + `fx=${select("#fx").value()}` + `&fy=${select("#fy").value()}`
            + `&mx=${select("#mx").value()}` + `&my=${select("#my").value()}`
            + `&phi=${select("#phi").value()}` + `&r=${select("#res").checked() ? 10 : 1}`
 
   select("#permalink").html(link).attribute("href", link)
+
+  redraw()
 }
 
 function randomOne() {
-  let freqX = floor(random(1, 25))
-  select("#fx").value(freqX)
-  let freqY = floor(random(1, 25))
-  select("#fy").value(freqY)
-  let modx = floor(random(1, 25))
-  select("#mx").value(modx)
-  let mody = floor(random(1, 25))
-  select("#my").value(mody)
-  let phi = random(359)
-  select("#phi").value(phi)
-  let r = select("#res").checked() ? 10 : 1
-  c = select("#res").checked() ? 25 : 100
-  p = ljpoints(width / 2, height / 2,
-               freqX, freqY,
-               modx, mody,
-               phi, r
-              )
-  permalinkOut()
-  redraw()
+  select("#fx").value(floor(random(1, 25)))
+  select("#fy").value(floor(random(1, 25)))
+  select("#mx").value(floor(random(1, 25)))
+  select("#my").value(floor(random(1, 25)))
+  select("#phi").value(random(359))
+  update()
 }
 
 function ljpoints(sx, sy, fx, fy, mx, my, p = 0, r = 1) {
@@ -97,14 +76,12 @@ function draw() {
 
   translate(width / 2, height / 2)
   let d = 0
-  let a = 0
   for (let i = 0; i < p.length; i++) {
     for (let j = 0; j < i; j++) {
-      d = p[i].dist(p[j])
+      d = (p[i].x - p[j].x) * (p[i].x - p[j].x) + (p[i].y - p[j].y) * (p[i].y - p[j].y) // fast squared dist
       if (d < c) {
-        a = pow(lerp(1, 0, d / c), 4)
         push()
-        stroke(0, 0, 0, a)
+        stroke(0, 0, 0, pow(1 - d/c, 6))
         line(p[i].x, p[i].y, p[j].x, p[j].y)
         pop()
       }
