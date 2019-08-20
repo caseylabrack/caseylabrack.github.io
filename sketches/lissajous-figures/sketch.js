@@ -1,5 +1,4 @@
-let p
-let c
+let p, c, i
 
 function setup() {
   createCanvas(320, 320).parent("canvas").mouseClicked(randomOne);
@@ -18,11 +17,9 @@ function setup() {
     update()
   } else {
     randomOne()
-    print("random one")
   }
 
   noFill()
-  noLoop()
 }
 
 function update() {
@@ -34,8 +31,6 @@ function update() {
               )
   c = select("#res").checked() ? 200 : 5000
 
-  print(c)
-
   const link = `https://CaseyLabrack.com/sketches/lissajous-figures/index.html?`
            + `fx=${select("#fx").value()}` + `&fy=${select("#fy").value()}`
            + `&mx=${select("#mx").value()}` + `&my=${select("#my").value()}`
@@ -43,7 +38,9 @@ function update() {
 
   select("#permalink").html(link).attribute("href", link)
 
-  redraw()
+  clear()
+  i = 0
+  loop()
 }
 
 function randomOne() {
@@ -72,11 +69,11 @@ function ljpoints(sx, sy, fx, fy, mx, my, p = 0, r = 1) {
 }
 
 function draw() {
-  clear()
 
   translate(width / 2, height / 2)
   let d = 0
-  for (let i = 0; i < p.length; i++) {
+  let r = i + 100
+  for (i; i < r; i++) {
     for (let j = 0; j < i; j++) {
       d = (p[i].x - p[j].x) * (p[i].x - p[j].x) + (p[i].y - p[j].y) * (p[i].y - p[j].y) // fast squared dist
       if (d < c) {
@@ -85,6 +82,10 @@ function draw() {
         line(p[i].x, p[i].y, p[j].x, p[j].y)
         pop()
       }
+    }
+    if(i==p.length-1) {
+      noLoop()
+      break;
     }
   }
 }
