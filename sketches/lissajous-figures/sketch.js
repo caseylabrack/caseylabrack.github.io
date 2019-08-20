@@ -44,10 +44,10 @@ function update() {
 }
 
 function randomOne() {
-  select("#fx").value(floor(random(1, 25)))
-  select("#fy").value(floor(random(1, 25)))
-  select("#mx").value(floor(random(1, 25)))
-  select("#my").value(floor(random(1, 25)))
+  select("#fx").value(select("#res").checked() ? floor(random(1, 25)) : floor(random(1, 15)))
+  select("#fy").value(select("#res").checked() ? floor(random(1, 25)) : floor(random(1, 15)))
+  select("#mx").value(select("#res").checked() ? floor(random(1, 25)) : floor(random(1, 15)))
+  select("#my").value(select("#res").checked() ? floor(random(1, 25)) : floor(random(1, 15)))
   select("#phi").value(random(359))
   update()
 }
