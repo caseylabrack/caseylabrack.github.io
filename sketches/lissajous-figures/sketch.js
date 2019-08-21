@@ -4,6 +4,7 @@ function setup() {
   createCanvas(320, 320).parent("canvas").mouseClicked(randomOne);
   selectAll('.inputs').forEach(z => z.changed(update))
   colorMode(HSB, 360, 100, 100, 1)
+  noFill()
 
   const params = new URLSearchParams(window.location.search)
 
@@ -18,8 +19,6 @@ function setup() {
   } else {
     randomOne()
   }
-
-  noFill()
 }
 
 function update() {
@@ -31,7 +30,7 @@ function update() {
               )
   c = select("#res").checked() ? 200 : 5000
 
-  const link = `https://CaseyLabrack.com/sketches/lissajous-figures/index.html?`
+  const link = `https://CaseyLabrack.com/sketches/lissajous-figures/?`
            + `fx=${select("#fx").value()}` + `&fy=${select("#fy").value()}`
            + `&mx=${select("#mx").value()}` + `&my=${select("#my").value()}`
            + `&phi=${select("#phi").value()}` + `&r=${select("#res").checked() ? 10 : 1}`
