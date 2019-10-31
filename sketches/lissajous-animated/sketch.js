@@ -4,8 +4,7 @@ function setup() {
   createCanvas(320, 320).parent("canvas").mouseClicked(randomOne);
   colorMode(HSB, 360, 100, 100, 1)
   noFill()
-  randomOne()
-
+  
   const params = new URLSearchParams(window.location.search)
 
   if(params.get("fx") && params.get("fy") && params.get("mx") && params.get("my")) {
