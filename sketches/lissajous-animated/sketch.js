@@ -1,7 +1,7 @@
 let freqX, freqY, modx, mody
 
 function setup() {
-  createCanvas(400, 400).parent("canvas").mouseClicked(randomOne);
+  createCanvas(320, 320).parent("canvas").mouseClicked(randomOne);
   colorMode(HSB, 360, 100, 100, 1)
   noFill()
   randomOne()
@@ -47,7 +47,7 @@ function draw() {
   beginShape()
   let i = 0
   addVert(i)
-  for (i; i < TWO_PI; i += TWO_PI / 360) addVert(i)
+  for (i; i < TWO_PI; i += TWO_PI / 180) addVert(i)
   addVert(i)
   endShape()
 }
