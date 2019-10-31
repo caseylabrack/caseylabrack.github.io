@@ -4,7 +4,8 @@ function setup() {
   createCanvas(320, 320).parent("canvas").mouseClicked(randomOne);
   colorMode(HSB, 360, 100, 100, 1)
   noFill()
-  
+  frameRate(30)
+
   const params = new URLSearchParams(window.location.search)
 
   if(params.get("fx") && params.get("fy") && params.get("mx") && params.get("my")) {
@@ -46,7 +47,7 @@ function draw() {
   beginShape()
   let i = 0
   addVert(i)
-  for (i; i < TWO_PI; i += TWO_PI / 180) addVert(i)
+  for (i; i < TWO_PI; i += TWO_PI / 360) addVert(i)
   addVert(i)
   endShape()
 }
