@@ -35,7 +35,7 @@ function updateLink () {
 
 function addVert(i) {
   curveVertex(
-    sin(i * freqX + radians(frameCount)) * cos(i * modx) * width/2,
+    sin(i * freqX + radians(frameCount*3)) * cos(i * modx) * width/2,
     sin(i * freqY) * cos(i * mody) * height/2
   )
 }
