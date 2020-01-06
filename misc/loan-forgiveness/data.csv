@@ -1,0 +1,11 @@
+﻿borrowers,Lowest Quintile of Earnings,Second Quintile of Earnings,Middle Quintile of Earnings,Fourth Quintile of Earnings,Highest Quintile of Earnings,type
+Lowest Quintile ,2.91803,0.52777,0.13167,0.04915,0.00305,Undergraduate
+Second Quintile ,6.2544,1.96294,0.51697,0.18966,0.0672,Undergraduate
+Middle Quintile ,13.87969,5.44972,1.89944,0.83576,0.24196,Undergraduate
+Fourth Quintile ,21.01528,11.31355,4.29932,2.05499,0.59773,Undergraduate
+Highest Quintile ,29.78985,20.36186,11.90083,4.68414,1.32556,Undergraduate
+Lowest Quintile ,8.89175,3.24647,1.68218,0.7082,0.10433,Graduate
+Second Quintile ,29.10683,13.42427,5.16431,2.06413,0.46147,Graduate
+Middle Quintile ,37.89048,20.63609,10.57803,4.72505,1.45363,Graduate
+Fourth Quintile ,47.44477,30.58225,20.55707,9.58548,2.62298,Graduate
+Highest Quintile ,80.72817,72.46113,56.8575,40.33907,21.91525,Graduate
