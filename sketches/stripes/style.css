@@ -8,4 +8,5 @@ body { width: 320px; }
 canvas {
   display: block;
   border: 1px solid;
+  cursor: pointer;
 }
