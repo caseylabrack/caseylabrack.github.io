@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script src="d3-time.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      document.body.innerHTML = `Casey has been social distancing for <strong>${d3.timeDay.count(new Date(2020,2,16), new Date())}</strong> days.`;
+    </script>
+  </body>
+</html>
