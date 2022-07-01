@@ -1,6 +1,3 @@
-library(sysfonts)
-library(showtext)
-# library(extrafont)
 library(tidyverse)
 library(lubridate)
 
@@ -17,7 +14,7 @@ sunrises = read_csv("sunrises-raw.csv") %>%
   mutate(date = dmy(paste0(Day, " ", month, ", 2022"))) %>% 
   mutate(time = hour(time) + minute(time)/60) %>% 
   mutate(dayNumber = as.numeric(date - as.Date("2022-04-11"))) %>% 
-  filter(dayNumber >= 0 & dayNumber <= 76)
+  filter(dayNumber >= 0 & dayNumber <= max(data$dayNumber))
 
 sunsets = read_csv("sunsets-raw.csv") %>% 
   gather(key = month, value = time, 2:13) %>% 
@@ -25,7 +22,7 @@ sunsets = read_csv("sunsets-raw.csv") %>%
   mutate(date = dmy(paste0(Day, " ", month, ", 2022"))) %>% 
   mutate(time = hour(time) + minute(time)/60) %>% 
   mutate(dayNumber = as.numeric(date - as.Date("2022-04-11"))) %>% 
-  filter(dayNumber >= 0 & dayNumber <= 76)
+  filter(dayNumber >= 0 & dayNumber <= max(data$dayNumber))
 
 ggplot(data, aes(x = ((time + 12) %% 24), y = dayNumber)) +
   geom_point() +

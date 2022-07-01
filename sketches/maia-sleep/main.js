@@ -4,8 +4,9 @@ const svg = d3.select("body").append("svg").attr("width", innerWidth).attr("heig
       height = svg.attr("height") - margin.top - margin.bottom,
       chart = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`)
       x = d3.scaleLinear().domain([0,24]).range([0, width]),
-      y = d3.scaleLinear().domain([0,76]).range([0,height]),
-      symbol = d3.scaleOrdinal().domain(["Feed","Pump","Diaper"]).range(["🍼","🐄","💩"])
+      y = d3.scaleLinear().range([0,height]),
+      symbol = d3.scaleOrdinal().domain(["Feed","Pump","Diaper"]).range(["🍼","🐄","💩"]),
+      color = d3.scaleOrdinal().domain(["Feed","Pump","Diaper"]).range([d3.hcl(270,50,60),d3.hcl(320,50,60),d3.hcl(30,50,40)])
 
 const line = d3.line()
               .x(d => x((+d["time"] + 12) % 24)) // shift time scale so midnight is the middle value
@@ -27,9 +28,13 @@ d3.queue()
 .defer(d3.csv, "sunsets.csv")
 .awaitAll(function(error,[babyData,sunriseData,sunsetData]) {
 
-    chart.append("g").call(
-      d3.axisBottom(x).tickValues([0,6,12,18]).tickFormat(timeFormat)
-    ).attr("transform", `translate(0, ${height})`)
+    d3.selectAll(".diaper").style("color", color("Diaper"))
+    d3.selectAll(".pump").style("color", color("Pump"))
+    d3.selectAll(".feed").style("color", color("Feed"))
+
+    y.domain([0, d3.max(babyData, d=> +d["dayNumber"])])
+
+    chart.append("g").call(d3.axisBottom(x).tickValues([0,6,12,18]).tickFormat(timeFormat)).attr("transform", `translate(0, ${height})`)
     chart.append("g").call(d3.axisLeft(y))
 
     // chart.append("g").selectAll("circle")
@@ -48,9 +53,9 @@ d3.queue()
         .attr("x", d => x((+d["time"] + 12) % 24)) // shift time scale so midnight is the middle value
         .attr("y", d => y(d["dayNumber"])+4)
         .attr("text-anchor", "middle")
-        .attr("font-family", "'Noto Emoji', sans-serif")
-        .attr("font-size", "24")
-        .style("fill", d3.hcl(0,0,50))
+        .attr("font-family", "Noto Emoji")
+        .attr("font-size", "20")
+        .style("fill", d => color(d["Type"]))
         .style("opacity", .5)
 
     chart.append("g").append("path")
@@ -64,6 +69,6 @@ d3.queue()
       .style("stroke", d3.hcl(0,0,25)).style("stroke-dasharray","8 2").style("fill", "none")
 
     svg.append("text").text("Day").attr("x", 0).attr("y", 16).style("font-size", ".9em")
-    chart.append("text").text("SUNRISE").attr("x", x((+sunriseData[0]["time"] + 12) % 24)).attr("y", y(0)-4).style("fill","black").style("text-anchor", "middle").style("font-size", ".6em")
-    chart.append("text").text("SUNSET").attr("x", x((+sunsetData[0]["time"] + 12) % 24)).attr("y", y(0)-4).style("fill","black").style("text-anchor", "middle").style("font-size", ".6em")
+    chart.append("text").text("SUNRISE").attr("x", x((+sunriseData[0]["time"] + 12) % 24)).attr("y", y(0)-4).style("fill","black").style("text-anchor", "middle").style("font-size", ".6em").attr("font-family", "sans-serif")
+    chart.append("text").text("SUNSET").attr("x", x((+sunsetData[0]["time"] + 12) % 24)).attr("y", y(0)-4).style("fill","black").style("text-anchor", "middle").style("font-size", ".6em").attr("font-family", "sans-serif")
 })
