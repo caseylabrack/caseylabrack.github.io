@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="narrative">
+      <h1>Inequality Explorer</h1>
+      <p>Americans earn income from things like wages and business income. They get additional income in the form of government transfers, depending on how low their income is. Some of their income goes to paying federal taxes, depending on how high their income is. What's left over at the end varies a lot depending on income group.</p>
+    </div>
+    <!-- </div> -->
+    <div id="charts">
+      <h2 style="font-family: sans-serif; font-size: 1.1em; margin: 0px; margin-top: 2em;">Average Household Income, by Income Source and Income Group</h2>
+      <p style="margin: 0px;"><em>2018 Dollars</em></p>
+    </div>
+    <fieldset id="btns">
+      <legend>Chart settings</legend>
+    <!-- <div id="btns"> -->
+      <p class="inputLabel"><strong>Year</strong></p>
+      <input type="range" id="year" name="year" step="1" min="1979" max="2018" value="2018">
+      <label id="yearLabel" for="year">2018</label>
+      <p class="inputLabel"><strong>Income groups</strong></p>
+      <div id="incomeGroups">
+        <div>
+          <input type="checkbox" id="all" name="all" value="all">
+          <label for="all">All Quintiles</label>
+        </div>
+        <div>
+          <input type="checkbox" id="lowest" name="lowest" value="lowest" checked>
+          <label for="lowest">Lowest Quintile</label>
+        </div>
+        <div>
+          <input type="checkbox" id="second" name="second" value="second" checked>
+          <label for="second">Second Quintile</label>
+        </div>
+        <div>
+          <input type="checkbox" id="middle" name="middle" value="middle" checked>
+          <label for="middle">Middle Quintile</label>
+        </div>
+        <div>
+          <input type="checkbox" id="fourth" name="fourth" value="fourth" checked>
+          <label for="fourth">Fourth Quintile</label>
+        </div>
+        <div>
+          <input type="checkbox" id="highest" name="highest" value="highest" checked>
+          <label for="highest">Highest Quintile</label>
+        </div>
+        <div>
+          <input type="checkbox" id="p81_90" name="p81_90" value="p81_90">
+          <label for="p81_90">81st to 90th Percentiles</label>
+        </div>
+        <div>
+          <input type="checkbox" id="p91_95" name="p91_95" value="p91_95">
+          <label for="p91_95">91st to 95th Percentiles</label>
+        </div>
+        <div>
+          <input type="checkbox" id="p96_99" name="p96_99" value="p96_99">
+          <label for="p96_99">96th to 99th Percentiles</label>
+        </div>
+        <div>
+          <input type="checkbox" id="top1" name="top1" value="top1">
+          <label for="top1">Top 1 Percent</label>
+        </div>
+      </div>
+    </fieldset>
+    <div class="narrative">
+      <h2>Notes</h2>
+      <p><strong><span class="beforeLabel textLabel">Income Before Transfers and Taxes</span></strong> consists of market income plus social insurance benefits. Market income consists of labor income; business income; capital income (including capital gains); income received in retirement for past services; and other nongovernmental sources of income. Social insurance benefits consist of benefits from Social Security (Old-Age, Survivors, and Disability Insurance); Medicare (measured as the average cost to the government of providing those benefits); unemployment insurance; and workers’ compensation.</p>
+      <p><strong><span class="transfersLabel textLabel">Means-tested transfers</span></strong> are cash payments and in-kind transfers from federal, state, and local government assistance programs. Eligibility to receive such transfers is determined primarily on the basis of income, which must be below certain thresholds. The largest means-tested transfer programs are Medicaid and the Children’s Health Insurance Program (measured as the average cost to the government of providing those benefits); the Supplemental Nutrition Assistance Program (formerly known as the Food Stamp program); and Supplemental Security Income. </p>
+      <p><strong><span class="taxesLabel textLabel">Federal taxes</span></strong> consist of individual income taxes, payroll taxes, corporate income taxes, and excise taxes. In this analysis, taxes for a given year are the amount a household owes on the basis of income received that year, regardless of when the taxes are paid. Taxes from those four sources accounted for 93 percent of federal revenues in fiscal year 2018. The remaining federal revenue sources not allocated to U.S. households include states’ deposits for unemployment insurance, estate and gift taxes, net income earned by the Federal Reserve, customs duties, and miscellaneous fees and fines.</p>
+      <p><strong><span class="afterLabel textLabel">Federal taxes</span></strong> consist of individual income taxes, payroll taxes, corporate income taxes, and excise taxes. In this analysis, taxes for a given year are the amount a household owes on the basis of income received that year, regardless of when the taxes are paid. Taxes from those four sources accounted for 93 percent of federal revenues in fiscal year 2018. The remaining federal revenue sources not allocated to U.S. households include states’ deposits for unemployment insurance, estate and gift taxes, net income earned by the Federal Reserve, customs duties, and miscellaneous fees and fines.</p>
+      <h2>Data</h2>
+      <p>Congressional Budget Office, <em>The Distribution of Household Income, 2018</em>, <a href="https://www.cbo.gov/system/files/2021-08/57061-Data.xlsx">supplemental data file</a> ("Average Household Income, by Income Source and Income Group, 1979 to 2018").</p>
+    </div>
+  </body>
+  <script src="d3-v4.min.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+</html>

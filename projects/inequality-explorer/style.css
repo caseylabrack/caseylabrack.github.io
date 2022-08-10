@@ -1,0 +1,8 @@
+#incomeGroups div { display: inline-block;}
+#btns { max-width: 600px; margin-left: auto; margin-right: auto;}
+.narrative {max-width: 600px; margin-left: auto; margin-right: auto;}
+.inputLabel {margin: 0px; margin-top: 10px; }
+.leg { stroke: #999; stroke-width: 1px; stroke-dasharray: 4 1;}
+svg text {font-family: sans-serif;}
+.textLabel { font-family: sans-serif;}
+h2 { margin-bottom: 0em; }
