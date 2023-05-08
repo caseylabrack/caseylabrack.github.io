@@ -3,11 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald:wght@200;400&display=swap" rel="stylesheet">
     <title>Casey Labrack dot com</title>
   </head>
   <body>
-    <h3 style="text-align: center; font-weight: 400; margin-bottom: .2em;">The Selected Digital Works of</h3><h1 style="text-transform: uppercase; margin-top: 0;">Casey Labrack</h1>
+    <!-- <h3 style="text-align: center; font-weight: 400; margin-bottom: .2em;">The Selected Digital Works of</h3><h1 style="text-transform: uppercase; margin-top: 0;">Casey Labrack</h1> -->
+    <h1 style="font-family: 'Oswald', sans-serif; font-weight: 200;">The Selected Digital Works <br/>of Casey Labrack</h1>
+    <div class="entry">
+      <img src="" alt="" />
+      <h2>Zaag</h2>
+      <p class="tag">#game</p>
+      <p class="description">Zaag is pretending to be a lost 1980s vector arcade game. Blast the zoids, cleanse the tau.</p>
+    </div>
+    <div class="entry">
+      <img src="" alt="" />
+      <h2>Inequality Explorer</h2>
+      <p class="tag">#dataviz</p>
+      <p class="description"></p>
+    </div>
+
     <article id="portfolio">
       <div class="project">
        <a href="https://caseylabrack.github.io/death-facts/">
@@ -125,9 +142,13 @@
   </div>
   </body>
   <style media="screen">
-    body { max-width: 1200px; margin-left: auto; margin-right: auto; padding: 6px; font-family: 'Source Sans Pro', sans-serif; }
-    h1 { text-align: center; }
+    body { max-width: 320px; margin-left: auto; margin-right: auto; padding: 6px; font-family: 'Source Sans Pro', sans-serif; }
+    /* h1 { text-align: center; } */
+    .tag { font-style: italic; color: #666; font-size: .8rem; margin-top: 0px;}
     a {  }
+    .description { font-family: 'EB Garamond', serif; }
+    .entry { }
+    .entry h2 { font-family: 'Oswald', sans-serif; font-weight: 400; margin-bottom: 0px;}
     #portfolio { display: flex; flex-flow: row wrap; justify-content: center; }
     #portfolio .project { min-width: 340px; padding: 10px; margin-top: 4em; }
     .project { font-variant-caps: all-small-caps; text-align: center; }
