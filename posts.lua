@@ -1,7 +1,7 @@
 post{
 	thumbs="zaag.png",
 	name="Zaag",
-	url="",
+	url="https://shastabolicious.itch.io/zaag",
 	tags={"toys"},
 	info="Videogame in the style of classic 1980s vector arcade shoot-'em-ups.",
 }
@@ -23,7 +23,7 @@ post{
 	thumbs="perlin2.png",
 	name="Perlin noise portraits",
 	url="https://shastabolicious.itch.io/perlin-noise-portraits",
-	tags={"art"},
+	tags={"art", "toys"},
 	info="A fun perlin noise field visualizer.",
 }
 post{
