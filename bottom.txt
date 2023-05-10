@@ -11,10 +11,11 @@ href="mailto:hello@caseylabrack.com">hello@caseylabrack.com</a>
     body { max-width: 320px; margin-left: auto; margin-right: auto; padding: 6px; 
 font-family: 'Source Sans Pro', sans-serif; }
     h1 { font-size: 2rem; }
-    .tag { font-style: italic; color: #666; font-size: .8rem; margin-top: 0px;}
+    .tag { font-style: italic; color: #666; font-size: .8rem; margin-top: 0px; 
+margin-bottom: .1em; }
     .post a { color: inherit; text-decoration: none; }
-    .description { font-family: 'EB Garamond', serif; }
-    .post { }
+    .description { font-family: 'EB Garamond', serif; margin-top: .25em; }
+    .post { margin-top: 4em; }
     .post h2 { font-family: 'Oswald', sans-serif; font-size: 1rem; font-weight: 400; 
 margin-bottom: 0px;}
     #portfolio { display: flex; flex-flow: row wrap; justify-content: center; }
