@@ -8,7 +8,7 @@ post{
 post{
 	thumbs="maia-sleep.png",
 	name="Maia Learns to Sleep",
-	url="https://www.caseylabrack.com/sketches/maia-sleep",
+	url="./sketches/maia-sleep",
 	tags={"dataviz"},
 	info="The full record of changings and feedings reveals how long it took baby Maia to start sleeping through the night.",
 }
