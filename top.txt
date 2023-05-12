@@ -14,5 +14,5 @@ rel="stylesheet">
     <title>Casey Labrack dot com</title>
   </head>
   <body>
-    <h1 style="font-family: 'Oswald', sans-serif; font-weight: 200;">The 
-Selected Digital Works <br/>of Casey Labrack</h1>
+    <a href="https://www.CaseyLabrack.com" style="text-decoration: none; color: inherit;">
+	<h1 style="font-family: 'Oswald', sans-serif; font-weight: 200;">The Selected Digital Works <br/>of Casey Labrack</h1></a>

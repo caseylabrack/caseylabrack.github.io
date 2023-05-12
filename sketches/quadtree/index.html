@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald:wght@200;400&display=swap" 
+rel="stylesheet">
+    <title>Terminator vision</title>
+  </head>
+  <body>
+    <h1 style="font-family: 'Oswald', sans-serif; font-weight: 
+200;">Terminator Vision</h1>
+	<div class="vid">
+	<video autoplay muted loop width="320">
+    		<source src="flamingo.mp4" type="video/mp4">
+	</video>
+	<p>In this little sketch, we take an image and divide it into four 
+squares. Then we find which of the squares contains the most contrast and 
+split that into four squares. Repeat.
+	</div>
+	<div class="vid">
+	<video autoplay muted loop width="320">
+    		<source src="bee.mp4" type="video/mp4">
+	</video>
+	<p>This idea has a lot of applications in computer science, where it's called a <a href="https://en.wikipedia.org/wiki/Quadtree">quadtree</a>. But we're just gonna use it to draw <a href="https://www.flickr.com/photos/casey-labrack/50076453651/">a bee</a>.
+	</div>
+	<div class="vid">
+	<video autoplay muted loop width="320">
+    		<source src="loop2.mp4" type="video/mp4">
+	</video>
+	<p>We can apply the same effect to each frame in a video to create Terminator Vision.
+	</div>
+	<div class="vid">
+	<video autoplay muted loop width="320">
+    		<source src="loop3.mp4" type="video/mp4">
+	</video>
+	<p>I would share the code I wrote to make these, but it was years ago and I think it's lost to time. Sorry.</p>
+	</div>
+  </body>
+  <style media="screen">
+    body { max-width: 320px; margin-left: auto; margin-right: auto; 
+padding: 6px; font-family: 'EB Garamond', serif; }
+    h1 { font-size: 2rem; }
+	.vid:not(:first-of-type) { margin-top: 100px;}
+  </style>
+</html>
+
+

@@ -33,6 +33,13 @@ post{
 	tags={"dataviz"},
 	info="Distance to the nearest grocery store for each neighborhood in D.C., an interesting social indicator.",
 }
+post{
+	thumbs="quad.png",
+	name="Terminator Vision",
+	url="./sketches/quadtree",
+	tags={"art"},
+	info="Reconstructing images with many recursive squares, for funsies.",
+}
 
 post{
 	thumbs="taxes@3x.png",
@@ -51,7 +58,7 @@ post{
 post{
 	thumbs="with-obama@3x.png",
 	name="With Obama",
-	url="",
+	url="./projects/with-obama",
 	tags={"art"},
 	info="A project to insert myself in the official White House photographs of the Obama administration, for funsies."
 }
