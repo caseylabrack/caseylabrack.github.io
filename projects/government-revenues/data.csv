@@ -1,0 +1,334 @@
+pl,title,year,value
+107-16,Economic Growth and Tax Relief Reconciliation Act of 2001,2001,-0.7
+107-16,Economic Growth and Tax Relief Reconciliation Act of 2001,2002,-0.3
+107-147,Job Creation and Worker Assistance Act of 2002,2002,-0.4
+107-16,Economic Growth and Tax Relief Reconciliation Act of 2001,2003,-0.7
+107-147,Job Creation and Worker Assistance Act of 2002,2003,-0.3
+108-27,Jobs and Growth Tax Relief Reconciliation Act of 2003,2003,-0.5
+107-16,Economic Growth and Tax Relief Reconciliation Act of 2001,2004,-0.8
+107-147,Job Creation and Worker Assistance Act of 2002,2004,-0.2
+108-27,Jobs and Growth Tax Relief Reconciliation Act of 2003,2004,-1.1
+107-16,Economic Growth and Tax Relief Reconciliation Act of 2001,2005,-0.8
+107-147,Job Creation and Worker Assistance Act of 2002,2005,-0
+108-27,Jobs and Growth Tax Relief Reconciliation Act of 2003,2005,-0.6
+108-311,Working Families Tax Relief Act of 2004,2005,-0.2
+108-357,American Jobs Creation Act of 2004,2005,-0
+107-16,Economic Growth and Tax Relief Reconciliation Act of 2001,2006,-0.9
+107-147,Job Creation and Worker Assistance Act of 2002,2006,0.1
+108-27,Jobs and Growth Tax Relief Reconciliation Act of 2003,2006,-0.2
+108-311,Working Families Tax Relief Act of 2004,2006,-0.3
+108-357,American Jobs Creation Act of 2004,2006,-0.1
+109-222,Tax Increase Prevention and Reconciliation Act of 2005,2006,-0
+107-16,Economic Growth and Tax Relief Reconciliation Act of 2001,2007,-1
+107-147,Job Creation and Worker Assistance Act of 2002,2007,0.1
+108-27,Jobs and Growth Tax Relief Reconciliation Act of 2003,2007,-0.1
+108-311,Working Families Tax Relief Act of 2004,2007,-0.1
+108-357,American Jobs Creation Act of 2004,2007,-0
+109-222,Tax Increase Prevention and Reconciliation Act of 2005,2007,-0.2
+109-280,Pension Protection Act of 2006,2007,0
+109-432,Tax Relief and Health Care Act of 2006,2007,-0.1
+107-16,Economic Growth and Tax Relief Reconciliation Act of 2001,2008,-1
+107-147,Job Creation and Worker Assistance Act of 2002,2008,0.1
+108-27,Jobs and Growth Tax Relief Reconciliation Act of 2003,2008,-0.1
+108-311,Working Families Tax Relief Act of 2004,2008,-0.1
+108-357,American Jobs Creation Act of 2004,2008,0
+109-222,Tax Increase Prevention and Reconciliation Act of 2005,2008,-0.1
+109-280,Pension Protection Act of 2006,2008,0
+109-432,Tax Relief and Health Care Act of 2006,2008,-0.1
+110-166,Tax Increase Prevention Act of 2007,2008,-0.5
+110-185,Economic Stimulus Act of 2008,2008,-0.8
+110-289,Housing and Economic Recovery Act of 2008,2008,-0
+107-16,Economic Growth and Tax Relief Reconciliation Act of 2001,2009,-1.1
+107-147,Job Creation and Worker Assistance Act of 2002,2009,0.1
+108-27,Jobs and Growth Tax Relief Reconciliation Act of 2003,2009,-0.1
+108-311,Working Families Tax Relief Act of 2004,2009,-0.1
+108-357,American Jobs Creation Act of 2004,2009,0
+109-222,Tax Increase Prevention and Reconciliation Act of 2005,2009,-0.1
+109-280,Pension Protection Act of 2006,2009,-0
+109-432,Tax Relief and Health Care Act of 2006,2009,-0
+110-166,Tax Increase Prevention Act of 2007,2009,0.1
+110-185,Economic Stimulus Act of 2008,2009,-0.1
+110-289,Housing and Economic Recovery Act of 2008,2009,-0.1
+110-343,Emergency Economic Stabilization Act of 2008,2009,-0.7
+111-3,Children's Health Insurance Program Reauthorization Act of 2009,2009,0
+111-5,American Recovery and Reinvestment Act of 2009,2009,-0.4
+107-16,Economic Growth and Tax Relief Reconciliation Act of 2001,2010,-1.2
+107-147,Job Creation and Worker Assistance Act of 2002,2010,0.1
+108-27,Jobs and Growth Tax Relief Reconciliation Act of 2003,2010,-0
+108-311,Working Families Tax Relief Act of 2004,2010,-0.1
+108-357,American Jobs Creation Act of 2004,2010,0
+109-222,Tax Increase Prevention and Reconciliation Act of 2005,2010,-0.1
+109-280,Pension Protection Act of 2006,2010,-0
+109-432,Tax Relief and Health Care Act of 2006,2010,-0
+110-166,Tax Increase Prevention Act of 2007,2010,0
+110-185,Economic Stimulus Act of 2008,2010,0.1
+110-289,Housing and Economic Recovery Act of 2008,2010,0
+110-343,Emergency Economic Stabilization Act of 2008,2010,-0
+111-3,Children's Health Insurance Program Reauthorization Act of 2009,2010,0.1
+111-5,American Recovery and Reinvestment Act of 2009,2010,-1.2
+111-92,"Worker, Homeownership, and Business Assistance Act of 2009",2010,-0.3
+111-147,Hiring Incentives to Restore Employment Act,2010,-0
+111-148; 111-152,Patient Protection and Affordable Health Care Act,2010,-0
+107-16,Economic Growth and Tax Relief Reconciliation Act of 2001,2011,-0.8
+107-147,Job Creation and Worker Assistance Act of 2002,2011,0
+108-27,Jobs and Growth Tax Relief Reconciliation Act of 2003,2011,0
+108-311,Working Families Tax Relief Act of 2004,2011,-0
+108-357,American Jobs Creation Act of 2004,2011,0
+109-222,Tax Increase Prevention and Reconciliation Act of 2005,2011,-0
+109-280,Pension Protection Act of 2006,2011,-0
+109-432,Tax Relief and Health Care Act of 2006,2011,-0
+110-166,Tax Increase Prevention Act of 2007,2011,0
+110-185,Economic Stimulus Act of 2008,2011,0.1
+110-289,Housing and Economic Recovery Act of 2008,2011,0
+110-343,Emergency Economic Stabilization Act of 2008,2011,-0
+111-3,Children's Health Insurance Program Reauthorization Act of 2009,2011,0
+111-5,American Recovery and Reinvestment Act of 2009,2011,-0.1
+111-92,"Worker, Homeownership, and Business Assistance Act of 2009",2011,0
+111-147,Hiring Incentives to Restore Employment Act,2011,-0
+111-148; 111-152,Patient Protection and Affordable Health Care Act,2011,0
+111-240,Small Business Jobs Act of 2010,2011,-0.4
+111-312,"Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010",2011,-2.3
+107-147,Job Creation and Worker Assistance Act of 2002,2012,0
+108-27,Jobs and Growth Tax Relief Reconciliation Act of 2003,2012,0
+108-311,Working Families Tax Relief Act of 2004,2012,-0
+108-357,American Jobs Creation Act of 2004,2012,0
+109-222,Tax Increase Prevention and Reconciliation Act of 2005,2012,0
+109-280,Pension Protection Act of 2006,2012,-0.1
+109-432,Tax Relief and Health Care Act of 2006,2012,-0
+110-166,Tax Increase Prevention Act of 2007,2012,0
+110-185,Economic Stimulus Act of 2008,2012,0
+110-289,Housing and Economic Recovery Act of 2008,2012,-0
+110-343,Emergency Economic Stabilization Act of 2008,2012,-0
+111-3,Children's Health Insurance Program Reauthorization Act of 2009,2012,0
+111-5,American Recovery and Reinvestment Act of 2009,2012,0.1
+111-92,"Worker, Homeownership, and Business Assistance Act of 2009",2012,0
+111-147,Hiring Incentives to Restore Employment Act,2012,-0
+111-148; 111-152,Patient Protection and Affordable Health Care Act,2012,0
+111-240,Small Business Jobs Act of 2010,2012,0.1
+111-312,"Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010",2012,-2.1
+112-78,Temporary Payroll Tax Cut Continuation Act of 2011,2012,-0.1
+112-96,Middle Class Tax Relief and Job Creation Act of 2012,2012,-0.4
+108-27,Jobs and Growth Tax Relief Reconciliation Act of 2003,2013,0
+108-311,Working Families Tax Relief Act of 2004,2013,-0
+108-357,American Jobs Creation Act of 2004,2013,0
+109-222,Tax Increase Prevention and Reconciliation Act of 2005,2013,0
+109-280,Pension Protection Act of 2006,2013,-0.1
+109-432,Tax Relief and Health Care Act of 2006,2013,-0
+110-166,Tax Increase Prevention Act of 2007,2013,0
+110-185,Economic Stimulus Act of 2008,2013,0
+110-289,Housing and Economic Recovery Act of 2008,2013,0.1
+110-343,Emergency Economic Stabilization Act of 2008,2013,-0
+111-3,Children's Health Insurance Program Reauthorization Act of 2009,2013,0
+111-5,American Recovery and Reinvestment Act of 2009,2013,0
+111-92,"Worker, Homeownership, and Business Assistance Act of 2009",2013,0
+111-147,Hiring Incentives to Restore Employment Act,2013,0
+111-148; 111-152,Patient Protection and Affordable Health Care Act,2013,0.2
+111-240,Small Business Jobs Act of 2010,2013,0.1
+111-312,"Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010",2013,-0.5
+112-78,Temporary Payroll Tax Cut Continuation Act of 2011,2013,-0
+112-96,Middle Class Tax Relief and Job Creation Act of 2012,2013,-0.1
+112-240,American Taxpayer Relief Act of 2012,2013,-1.7
+108-311,Working Families Tax Relief Act of 2004,2014,-0
+108-357,American Jobs Creation Act of 2004,2014,-0
+109-222,Tax Increase Prevention and Reconciliation Act of 2005,2014,0
+109-280,Pension Protection Act of 2006,2014,-0.1
+109-432,Tax Relief and Health Care Act of 2006,2014,-0
+110-166,Tax Increase Prevention Act of 2007,2014,0
+110-185,Economic Stimulus Act of 2008,2014,0
+110-289,Housing and Economic Recovery Act of 2008,2014,-0
+110-343,Emergency Economic Stabilization Act of 2008,2014,-0
+111-3,Children's Health Insurance Program Reauthorization Act of 2009,2014,0
+111-5,American Recovery and Reinvestment Act of 2009,2014,0
+111-92,"Worker, Homeownership, and Business Assistance Act of 2009",2014,0.1
+111-147,Hiring Incentives to Restore Employment Act,2014,0.1
+111-148; 111-152,Patient Protection and Affordable Health Care Act,2014,0.3
+111-240,Small Business Jobs Act of 2010,2014,0.1
+111-312,"Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010",2014,0
+112-78,Temporary Payroll Tax Cut Continuation Act of 2011,2014,0
+112-96,Middle Class Tax Relief and Job Creation Act of 2012,2014,-0.2
+112-240,American Taxpayer Relief Act of 2012,2014,-1.7
+109-222,Tax Increase Prevention and Reconciliation Act of 2005,2015,0
+109-280,Pension Protection Act of 2006,2015,-0.1
+109-432,Tax Relief and Health Care Act of 2006,2015,-0
+110-166,Tax Increase Prevention Act of 2007,2015,0
+110-185,Economic Stimulus Act of 2008,2015,0
+110-289,Housing and Economic Recovery Act of 2008,2015,0
+110-343,Emergency Economic Stabilization Act of 2008,2015,0
+111-3,Children's Health Insurance Program Reauthorization Act of 2009,2015,0
+111-5,American Recovery and Reinvestment Act of 2009,2015,0
+111-92,"Worker, Homeownership, and Business Assistance Act of 2009",2015,-0.1
+111-147,Hiring Incentives to Restore Employment Act,2015,0
+111-148; 111-152,Patient Protection and Affordable Health Care Act,2015,0.4
+111-240,Small Business Jobs Act of 2010,2015,0.2
+111-312,"Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010",2015,0.1
+112-78,Temporary Payroll Tax Cut Continuation Act of 2011,2015,0
+112-96,Middle Class Tax Relief and Job Creation Act of 2012,2015,0
+112-240,American Taxpayer Relief Act of 2012,2015,-1.5
+113-295,Tax Increase Prevention Act of 2014,2015,-0.4
+109-280,Pension Protection Act of 2006,2016,-0.1
+109-432,Tax Relief and Health Care Act of 2006,2016,-0
+110-166,Tax Increase Prevention Act of 2007,2016,0
+110-185,Economic Stimulus Act of 2008,2016,0
+110-289,Housing and Economic Recovery Act of 2008,2016,0
+110-343,Emergency Economic Stabilization Act of 2008,2016,0
+111-3,Children's Health Insurance Program Reauthorization Act of 2009,2016,0
+111-5,American Recovery and Reinvestment Act of 2009,2016,0
+111-92,"Worker, Homeownership, and Business Assistance Act of 2009",2016,0
+111-147,Hiring Incentives to Restore Employment Act,2016,-0.1
+111-148; 111-152,Patient Protection and Affordable Health Care Act,2016,0.4
+111-240,Small Business Jobs Act of 2010,2016,-0.1
+111-312,"Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010",2016,0.1
+112-78,Temporary Payroll Tax Cut Continuation Act of 2011,2016,0
+112-96,Middle Class Tax Relief and Job Creation Act of 2012,2016,0.2
+112-240,American Taxpayer Relief Act of 2012,2016,-1.6
+113-295,Tax Increase Prevention Act of 2014,2016,0.1
+114-94,Fixing America's Surface Transportation Act,2016,0.1
+114-113,"Consolidated Appropriations Act, 2016",2016,-0.8
+110-166,Tax Increase Prevention Act of 2007,2017,0
+110-185,Economic Stimulus Act of 2008,2017,0
+110-289,Housing and Economic Recovery Act of 2008,2017,0
+110-343,Emergency Economic Stabilization Act of 2008,2017,0
+111-3,Children's Health Insurance Program Reauthorization Act of 2009,2017,0
+111-5,American Recovery and Reinvestment Act of 2009,2017,0
+111-92,"Worker, Homeownership, and Business Assistance Act of 2009",2017,0
+111-147,Hiring Incentives to Restore Employment Act,2017,0
+111-148; 111-152,Patient Protection and Affordable Health Care Act,2017,0.5
+111-240,Small Business Jobs Act of 2010,2017,0
+111-312,"Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010",2017,0.1
+112-78,Temporary Payroll Tax Cut Continuation Act of 2011,2017,0
+112-96,Middle Class Tax Relief and Job Creation Act of 2012,2017,0
+112-240,American Taxpayer Relief Act of 2012,2017,-1.7
+113-295,Tax Increase Prevention Act of 2014,2017,0.1
+114-94,Fixing America's Surface Transportation Act,2017,0
+114-113,"Consolidated Appropriations Act, 2016",2017,-0.5
+110-185,Economic Stimulus Act of 2008,2018,0
+110-289,Housing and Economic Recovery Act of 2008,2018,0
+110-343,Emergency Economic Stabilization Act of 2008,2018,0
+111-3,Children's Health Insurance Program Reauthorization Act of 2009,2018,0
+111-5,American Recovery and Reinvestment Act of 2009,2018,0
+111-92,"Worker, Homeownership, and Business Assistance Act of 2009",2018,0
+111-147,Hiring Incentives to Restore Employment Act,2018,0
+111-148; 111-152,Patient Protection and Affordable Health Care Act,2018,0.5
+111-240,Small Business Jobs Act of 2010,2018,0
+111-312,"Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010",2018,0
+112-78,Temporary Payroll Tax Cut Continuation Act of 2011,2018,0
+112-96,Middle Class Tax Relief and Job Creation Act of 2012,2018,0
+112-240,American Taxpayer Relief Act of 2012,2018,-1.8
+113-295,Tax Increase Prevention Act of 2014,2018,0
+114-94,Fixing America's Surface Transportation Act,2018,0
+114-113,"Consolidated Appropriations Act, 2016",2018,-0.3
+115-97,"Tax Cuts and Jobs Act, 2017",2018,-0.7
+111-3,Children's Health Insurance Program Reauthorization Act of 2009,2019,0
+111-5,American Recovery and Reinvestment Act of 2009,2019,0
+111-92,"Worker, Homeownership, and Business Assistance Act of 2009",2019,0
+111-147,Hiring Incentives to Restore Employment Act,2019,0
+111-148; 111-152,Patient Protection and Affordable Health Care Act,2019,0.5
+111-240,Small Business Jobs Act of 2010,2019,0
+111-312,"Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010",2019,0
+112-78,Temporary Payroll Tax Cut Continuation Act of 2011,2019,0
+112-96,Middle Class Tax Relief and Job Creation Act of 2012,2019,-0
+112-240,American Taxpayer Relief Act of 2012,2019,-1.8
+113-295,Tax Increase Prevention Act of 2014,2019,0
+114-94,Fixing America's Surface Transportation Act,2019,0
+114-113,"Consolidated Appropriations Act, 2016",2019,-0.3
+115-97,"Tax Cuts and Jobs Act, 2017",2019,-1.3
+111-147,Hiring Incentives to Restore Employment Act,2020,0
+111-148; 111-152,Patient Protection and Affordable Health Care Act,2020,0.5
+111-240,Small Business Jobs Act of 2010,2020,0
+111-312,"Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010",2020,0
+112-78,Temporary Payroll Tax Cut Continuation Act of 2011,2020,0
+112-96,Middle Class Tax Relief and Job Creation Act of 2012,2020,0
+112-240,American Taxpayer Relief Act of 2012,2020,-2
+113-295,Tax Increase Prevention Act of 2014,2020,0
+114-94,Fixing America's Surface Transportation Act,2020,0
+114-113,"Consolidated Appropriations Act, 2016",2020,-0.1
+115-97,"Tax Cuts and Jobs Act, 2017",2020,-1.2
+116-44,"Further Consolidated Appropriations Act, 2020",2020,-0.2
+116-127,Families First Coronavirus Response Act,2020,-0.4
+116-136,CARES Act,2020,-2.1
+112-78,Temporary Payroll Tax Cut Continuation Act of 2011,2021,0
+112-96,Middle Class Tax Relief and Job Creation Act of 2012,2021,0
+112-240,American Taxpayer Relief Act of 2012,2021,-2
+113-295,Tax Increase Prevention Act of 2014,2021,0
+114-94,Fixing America's Surface Transportation Act,2021,0
+114-113,"Consolidated Appropriations Act, 2016",2021,-0
+115-97,"Tax Cuts and Jobs Act, 2017",2021,-1
+116-44,"Further Consolidated Appropriations Act, 2020",2021,-0.1
+116-127,Families First Coronavirus Response Act,2021,-0.1
+116-136,CARES Act,2021,-1
+116-260,"Consolidated Appropriations Act, 2021",2021,-0.2
+117-2,"American Rescue Plan Act, 2021",2021,-0.3
+112-96,Middle Class Tax Relief and Job Creation Act of 2012,2022,0
+112-240,American Taxpayer Relief Act of 2012,2022,-1.9
+113-295,Tax Increase Prevention Act of 2014,2022,-0
+114-94,Fixing America's Surface Transportation Act,2022,0
+114-113,"Consolidated Appropriations Act, 2016",2022,-0.1
+115-97,"Tax Cuts and Jobs Act, 2017",2022,-0.8
+116-44,"Further Consolidated Appropriations Act, 2020",2022,-0.1
+116-127,Families First Coronavirus Response Act,2022,0
+116-136,CARES Act,2022,0.7
+116-260,"Consolidated Appropriations Act, 2021",2022,-0.1
+117-2,"American Rescue Plan Act, 2021",2022,-0.2
+113-295,Tax Increase Prevention Act of 2014,2023,-0
+114-94,Fixing America's Surface Transportation Act,2023,0
+114-113,"Consolidated Appropriations Act, 2016",2023,-0.1
+115-97,"Tax Cuts and Jobs Act, 2017",2023,-0.6
+116-44,"Further Consolidated Appropriations Act, 2020",2023,-0.1
+116-127,Families First Coronavirus Response Act,2023,0
+116-136,CARES Act,2023,0.6
+116-260,"Consolidated Appropriations Act, 2021",2023,-0
+117-2,"American Rescue Plan Act, 2021",2023,0
+117-169,"Inflation Reduction Act, 2022",2023,0.1
+113-295,Tax Increase Prevention Act of 2014,2024,-0
+114-94,Fixing America's Surface Transportation Act,2024,0
+114-113,"Consolidated Appropriations Act, 2016",2024,-0.1
+115-97,"Tax Cuts and Jobs Act, 2017",2024,-0.5
+116-44,"Further Consolidated Appropriations Act, 2020",2024,-0.1
+116-127,Families First Coronavirus Response Act,2024,0
+116-136,CARES Act,2024,0
+116-260,"Consolidated Appropriations Act, 2021",2024,-0
+117-2,"American Rescue Plan Act, 2021",2024,0
+117-169,"Inflation Reduction Act, 2022",2024,0.1
+114-94,Fixing America's Surface Transportation Act,2025,0
+114-113,"Consolidated Appropriations Act, 2016",2025,-0.1
+115-97,"Tax Cuts and Jobs Act, 2017",2025,-0.5
+116-44,"Further Consolidated Appropriations Act, 2020",2025,-0.1
+116-127,Families First Coronavirus Response Act,2025,0
+116-136,CARES Act,2025,0
+116-260,"Consolidated Appropriations Act, 2021",2025,-0
+117-2,"American Rescue Plan Act, 2021",2025,0
+117-169,"Inflation Reduction Act, 2022",2025,0
+115-97,"Tax Cuts and Jobs Act, 2017",2026,-0.2
+116-44,"Further Consolidated Appropriations Act, 2020",2026,-0.1
+116-127,Families First Coronavirus Response Act,2026,0
+116-136,CARES Act,2026,0
+116-260,"Consolidated Appropriations Act, 2021",2026,-0
+117-2,"American Rescue Plan Act, 2021",2026,0.1
+117-169,"Inflation Reduction Act, 2022",2026,-0
+115-97,"Tax Cuts and Jobs Act, 2017",2027,-0.1
+116-44,"Further Consolidated Appropriations Act, 2020",2027,-0.2
+116-127,Families First Coronavirus Response Act,2027,0
+116-136,CARES Act,2027,0
+116-260,"Consolidated Appropriations Act, 2021",2027,-0
+117-2,"American Rescue Plan Act, 2021",2027,0.1
+117-169,"Inflation Reduction Act, 2022",2027,0.1
+116-44,"Further Consolidated Appropriations Act, 2020",2028,-0.2
+116-127,Families First Coronavirus Response Act,2028,0
+116-136,CARES Act,2028,0
+116-260,"Consolidated Appropriations Act, 2021",2028,-0
+117-2,"American Rescue Plan Act, 2021",2028,0
+117-169,"Inflation Reduction Act, 2022",2028,0.1
+116-44,"Further Consolidated Appropriations Act, 2020",2029,-0.2
+116-127,Families First Coronavirus Response Act,2029,0
+116-136,CARES Act,2029,0
+116-260,"Consolidated Appropriations Act, 2021",2029,-0
+117-2,"American Rescue Plan Act, 2021",2029,0
+117-169,"Inflation Reduction Act, 2022",2029,0
+116-127,Families First Coronavirus Response Act,2030,0
+116-136,CARES Act,2030,0
+116-260,"Consolidated Appropriations Act, 2021",2030,-0
+117-2,"American Rescue Plan Act, 2021",2030,0
+117-169,"Inflation Reduction Act, 2022",2030,0
+117-2,"American Rescue Plan Act, 2021",2031,0
+117-169,"Inflation Reduction Act, 2022",2031,-0
+117-169,"Inflation Reduction Act, 2022",2032,-0

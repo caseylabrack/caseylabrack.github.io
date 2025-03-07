@@ -1,0 +1,34 @@
+body { font-family: "Public Sans", sans-serif; }
+
+h1 { font-size: 1.5em; }
+h2 { font-size: 1em; font-style: italic; }
+h1, h2 { font-weight: 200; }
+
+figure { margin: 0; overflow-x: scroll; }
+
+svg text.labels {
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-anchor: middle;
+    font-size: .9em;
+}
+
+svg text {
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+svg text.tooltip {
+    font-weight: 300;
+}
+
+svg rect.chartcell {
+    stroke: #303030;
+    stroke-width: .25px;
+}
+
+figcaption p { font-size: .9em; max-width: 800px; }
