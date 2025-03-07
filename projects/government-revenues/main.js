@@ -1,4 +1,5 @@
-const svg = d3.select("figure").append("svg").attr("width", 1200).attr("height", 1500).lower(),
+const svg = d3.select("figure").append("svg").attr("viewBox", "0 0 1200 1500").attr("xmlns", "http://www.w3.org/2000/svg")
+    .attr("width", 1200).attr("height", 1500).lower(),
     margin = {top: 0, bottom: 120, left: 25, right: 20},
     width = svg.attr("width") - margin.left - margin.right,
     height = svg.attr("height") - margin.top - margin.bottom,
@@ -23,7 +24,8 @@ d3.csv("data.csv").then(csv => {
         y.domain(Object.keys(reverseTable))
     }
 
-    chart.selectAll("rect.values")
+    chart.append("g")
+        .selectAll("rect.chartcell")
         .data(data)
         .enter()
         .append("rect").classed("chartcell", true)
@@ -80,24 +82,20 @@ d3.csv("data.csv").then(csv => {
     const legend = svg.append("g").attr("transform", `translate(${margin.left},${margin.top+height+60})`)
     const legendWidth = 200 // width of the legend
     const legendHeight = 20 // height of the legend box
-    const legendSteps = 10 // number of steps in the legend
-    const legendData = d3.range(-2.5,2.5,5/legendSteps)
-    const legendX = d3.scaleLinear().domain([-2.5,2.5]).range([0,legendWidth])
-    const legendColor = d3.scaleSequential(d3.interpolatePiYG).domain([-2.5,2.5]) // color scale for the legend
+    const legendData = d3.range(-3,3+.01,1)
+    const legendX = d3.scaleBand().domain(legendData).range([0,legendWidth])
     legend.selectAll("rect")
         .data(legendData)
         .enter()
-        .append("rect")
-        .attr("x", d => legendX(d))
-        .attr("y", 10)
-        .attr("width", legendWidth/legendSteps)
-        .attr("height", legendHeight)
-        .attr("fill", d => legendColor(d))
-    legend.append("g").call(d3.axisBottom(legendX).ticks(5)).attr("transform", `translate(0,${legendHeight+10})`)
+        .append("rect").classed("chartcell", true)
+            .attr("x", d => legendX(d))
+            .attr("y", 10)
+            .attr("width", legendWidth/legendData.length)
+            .attr("height", legendHeight)
+            .attr("fill", d => color(d))
+    legend.append("g").call(d3.axisBottom(legendX)).attr("transform", `translate(0,${legendHeight+10})`)
     legend.append("text")
         .text("Change to revenues (as percentage of GDP)")
-        .attr("x", 0)
-        .attr("y", 0)
         .style("text-anchor", "left")
         .style("font-size", ".8em")
         .style("font-weight", 600)
