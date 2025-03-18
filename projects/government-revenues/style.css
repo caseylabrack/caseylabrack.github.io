@@ -7,10 +7,8 @@ h1, h2 { font-weight: 200; }
 figure { margin: 0; overflow-x: scroll; }
 
 svg text.labels {
-    font-family: "Public Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-style: normal;
     text-anchor: middle;
     font-size: .9em;
 }
@@ -19,11 +17,11 @@ svg text {
     font-family: "Public Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;
 }
 
 svg text.tooltip {
-    font-weight: 300;
+    font-weight: 500;
+    font-size: .7em;
 }
 
 svg rect.chartcell {
