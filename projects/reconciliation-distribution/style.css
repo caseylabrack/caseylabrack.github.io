@@ -1,0 +1,67 @@
+body { font-family: "Public Sans", sans-serif; padding: 16px; }
+body { max-width: 800px;}
+p { max-width: 800px; }
+li { max-width: 800px;}
+
+h1 { font-size: 1.75em; max-width: 800px; font-weight: 400;}
+h2 { font-size: 1.25em; margin-bottom: .25em; margin-top: 2em; font-weight: 400;}
+h3 { font-size: 1em; font-style: italic; margin-top: 0em; font-weight: 400;}
+
+h2 {margin-top: 2em;}
+
+fieldset { max-width: max-content; }
+fieldset p { max-width: 20em; }
+
+.inputNote { font-size: .9em; font-style: italic; max-width: 24em; margin-top: .25em;}
+
+table { border-collapse: collapse;}
+table thead tr { border-bottom: 1px solid black;}
+table th,td { padding: .25em; min-width: 2em; }
+th:first-child { text-align: left;}
+.resultsTable tr:last-child { border-bottom: 1px solid black; }
+.resultsTable th:last-child { border-left: 6px solid white; }
+.resultsTable td:last-child { border-left: 6px solid white; }
+tr td:not(:first-child),th:not(:first-child) { text-align: right; }
+
+.factorInput { margin-top: 1em;}
+/* label { margin-top: 4em; } */
+
+table.legend td { text-align: left; padding-bottom: 0; padding-top: 0;}
+figure { margin: 0;}
+table.legend tr { border-bottom: 1px solid white; }
+table.legend { margin-top: 1em; }
+
+.yearRange { white-space: nowrap;}
+
+input[type="checkbox"] { margin-left: 0; }
+
+tooltip td { padding-bottom: 0; padding-top: 0; text-align: right;}
+
+.tooltip {
+    font-family: sans-serif;
+    font-size: .75em;
+    background: #eeeeeeee;
+    pointer-events: none;
+    border-radius: 2px;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    z-index: 1;
+    transform: translate(0%,0%)
+}
+
+details { padding-left: .5em; margin-top: .25em; font-size: .85em;}
+summary { cursor: pointer; }
+details p {  margin: 1em 0 0 0; max-width: 20em;}
+
+.wrap { display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch;}
+#col1 { margin-right: 25px;}
+#charts { max-width: 350px;}
+#inputsForm { min-width: 320px; position: sticky; top: 0;}
+
+#tables {overflow-x: scroll;}
+#charts {overflow-x: scroll;}
+
+header { background: #194c66; border-bottom: 3px solid #c6ae04; padding: 1em; max-width: 800px;}

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>How the One Big Beautifull Bill Act Would Affect the Distribution of Resources Available to Households</title>
+</head>
+<header>
+    <a href="https://www.cbo.gov/">
+        <img src="cbo_logo_50Anniversary.png" alt="Congressional Budget Office logo" title="Congressional Budget Office Home" width="320" height="auto">
+    </a>
+</header>
+<body>
+    <h1>How the One Big Beautifull Bill Act Would Affect the Distribution of Resources Available to Households</h1>
+    <p>This interactive tool illustrates the distributional effects of H.R. 1, the One Big Beautiful Bill Act. It allows users to explore how H.R. 1, as passed by the House of Representatives on May 22, 2025, would affect the economic resources provided by the government to households grouped on the basis of their income. (See <a href="https://www.cbo.gov/publication/61461">CBO’s estimate of the budgetary effects of the bill</a>.)</p>
+    <p>In CBO’s assessment, the legislation would affect household resources through several channels:</p>
+    <ul>
+        <li>Federal taxes and cash transfers (such as Social Security benefits);</li>
+        <li>Federal and state in-kind transfers (such as Medicaid benefits);</li>
+        <li>State financing (that is, changes in state taxes and spending resulting from changes in state spending on program benefits); and</li>
+        <li>Other revenue and spending changes (which CBO allocates as if they were public goods).</li>
+    </ul>
+    <p>Each channel would affect household resources in different ways. The effects are not all directly comparable, so caution should be taken when interpreting the combined effects of different resource channels. For example, both reductions in taxes and increases in border security spending would have a positive effect on household resources in this analysis, but the ways in which households would benefit from them are different. </p>
+    <div class="wrap">
+        <div id="col1">
+            <form id="inputsForm">
+                <fieldset>
+                    <legend><strong>Select years and resource channels to include</strong></legend>
+                    <p><strong>Years included:</strong> The graphs drawn by the tool are averages for a given set of years. Choose any number of years within the projection period to see how households would be affected, on average, over that period.</p>
+                    <div id="yearsInputs">
+                        <label for="checkbox2026">2026</label>
+                        <input type="checkbox" id="checkbox2026" name="2026" checked />&nbsp;&nbsp;
+                        <label for="checkbox2027">2027</label>
+                        <input type="checkbox" id="checkbox2027" name="2027" checked />&nbsp;&nbsp;
+                        <label for="checkbox2028">2028</label>
+                        <input type="checkbox" id="checkbox2028" name="2028" checked />&nbsp;&nbsp;<br>
+                        <label for="checkbox2029">2029</label>
+                        <input type="checkbox" id="checkbox2029" name="2029" checked />&nbsp;&nbsp;
+                        <label for="checkbox2030">2030</label>
+                        <input type="checkbox" id="checkbox2030" name="2030" checked />&nbsp;&nbsp;
+                        <label for="checkbox2031">2031</label>
+                        <input type="checkbox" id="checkbox2031" name="2031" checked />&nbsp;&nbsp;<br>
+                        <label for="checkbox2032">2032</label>
+                        <input type="checkbox" id="checkbox2032" name="2032" checked />&nbsp;&nbsp;
+                        <label for="checkbox2033">2033</label>
+                        <input type="checkbox" id="checkbox2033" name="2033" checked />&nbsp;&nbsp;
+                        <label for="checkbox2034">2034</label>
+                        <input type="checkbox" id="checkbox2034" name="2034" checked />&nbsp;&nbsp;
+                    </div>
+                    <p><strong>Resource channels.</strong> The graphs incorporate the effects of the resource channels (described above) on household resources. Choose one or more channels to include.</p>
+                    <div class="factorInput">
+                        <label for="includeFedTaxes">Federal taxes and cash transfers</label>
+                        <input type="checkbox" id="includeFedTaxes" name="includeFedTaxes" checked />
+                        <details>
+                            <summary><em>More information</em></summary>
+                            <p>Changes to federal tax policy, especially extensions of provisions of the 2017 tax act and reductions in subsidies for health insurance under the Affordable Care Act, would affect household resources. Changes to student loan programs would also affect those resources.</p>
+                            <p>Tax changes were allocated on the basis of estimates done by staff of the Joint Committee on Taxation; changes in income resulting from student loan policy were allocated on the basis of CBO’s student loan microsimulation model.</p>
+                        </details>
+                    </div>
+                    <div class="factorInput">
+                        <label for="includeInKind">Federal and state in-kind transfers</label>
+                        <input type="checkbox" id="includeInKind" name="includeInKind" checked />
+                        <details>
+                            <summary><em>More information</em></summary>
+                            <p>Decreases in federal spending on benefits provided through Medicaid and the Supplemental Nutrition Assistance Program (SNAP) would affect resources available to households, as would any changes to benefits from those programs that states made in response to this legislation.</p>
+                            <p>CBO allocated changes to Medicaid to program participants (who would not enroll or who would receive fewer benefits) and to healthcare providers (whose revenue would be reduced). Changes to SNAP were allocated to program participants. To account for the effects of states’ responses to federal policy (SNAP in particular), CBO included changes in state spending on benefits resulting from matching requirements under the legislation.</p>
+                        </details>
+                    </div>
+                    <div class="factorInput">
+                        <label for="includeStateFinancing">State financing</label>
+                        <input type="checkbox" id="includeStateFinancing" name="includeStateFinancing" checked />
+                        <details>
+                            <summary><em>More information</em></summary>
+                            <p>Tax and spending changes implemented by states to finance their changes in spending on benefits would affect household resources.</p>
+                            <p>In CBO’s assessment, Medicaid eligibility restrictions under the legislation would reduce states’ spending on benefits. States would use the savings to reduce taxes and increase spending, both of which would increase household resources. </p>
+                            <p>By contrast, matching requirements for SNAP would increase state spending. The agency estimates that states would finance that additional spending by increasing taxes and decreasing spending in other areas. Those financing mechanisms would decrease household resources.</p>
+                        </details>
+                    </div>
+                    <div class="factorInput">
+                        <label for="includePublicGoods">Other revenue and spending changes</label>
+                        <input type="checkbox" id="includePublicGoods" name="includePublicGoods" checked />
+                        <details>
+                            <summary><em>More information</em></summary>
+                            <p>In this analysis, all outlays other than social insurance benefits and means-tested transfers—were allocated as if they were public goods. Such outlays include, for example, increased spending on border security. By default, CBO allocated those changes on the basis of household income and household size, weighted equally.</p>
+                        </details>
+                    </div>
+                    <div class="factorInput" style="padding-left: 2em;">
+                        <label for="proportionPerPerson">Proportion per person</label>
+                        <input type="number" id="proportionPerPerson" name="proportionPerPerson" min="0" max="1" step=".1" value=".5" />
+                        <details>
+                            <summary><em>More information</em></summary>
+                            <p>If users choose to include the effects of other revenue and spending changes on household resources, they can also choose how to allocate those effects on the basis of each household’s income and size. By default, CBO treated those changes as if they were public goods, which the agency typically allocates to household income and size, each weighted 50 percent. </p>
+                            <p>Change the allocation by varying the percentage allocated on the basis of population from 0 to 1 in increments of 0.1. (The remaining share is allocated on the basis of household income.)</p>
+                        </details>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="charts">
+            <figure>
+                <h2>Average annual change in resources per household (<span class="yearRange"></span>)</h2>
+                <h3>2025 dollars</h3>
+                <svg width="350" height="350" xmlns="http://www.w3.org/2000/svg" id="dollarsChartSVG">
+
+                </svg>
+                <figcaption>
+                    <button id="exportDataDollars" style="margin-top: 1em;" type="button">Download a copy of the figure data (.csv)</button>
+                    <table id="dollarsLegend" class="legend">
+                        <tbody>
+                            <tr><td style="background-color: #BEDF6A;">&nbsp;</td><td>Federal taxes and cash transfers</td></tr>
+                            <tr><td style="background-color: #45BA97;"></td><td>Federal and state in-kind transfers</td></tr>
+                            <tr><td style="background-color: #4D849D;"></td><td>State financing</td></tr>
+                            <tr><td style="background-color: #6C4C67;"></td><td>Other revenue and spending changes</td></tr>
+                            <tr><td style="text-align: right;">◇</td><td>Net effect</td></tr>
+                        </tbody>
+                    </table>
+                </figcaption>
+            </figure>
+            <figure>
+                <h2>Average annual change in household resources as a percentage of current law income after transfers and taxes (<span class="yearRange"></span>)</h2>
+                <h3>Percent</h3>
+                <svg width="350" height="350" xmlns="http://www.w3.org/2000/svg" id="pctChartSVG">
+
+                </svg>
+                <figcaption>
+                    <button id="exportDataPCT" style="margin-top: 1em;" type="button">Download a copy of the figure data (.csv)</button>
+                    <table id="pctLegend" class="legend">
+                        <tbody>
+                            <tr><td style="background-color: #BEDF6A;"></td><td>Federal taxes and cash transfers</td></tr>
+                            <tr><td style="background-color: #45BA97;"></td><td>Federal and state in-kind transfers</td></tr>
+                            <tr><td style="background-color: #4D849D;"></td><td>State financing</td></tr>
+                            <tr><td style="background-color: #6C4C67;"></td><td>Other revenue and spending changes</td></tr>
+                            <tr><td style="text-align: right;">◇</td><td>Net effect</td></tr>
+                        </tbody>
+                    </table>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    <section id="tables">
+        <h2>Average components of income after transfers and taxes under current law (<span class="yearRange"></span>)</h2>
+        <h3>2025 dollars per household</h3>
+        <table id="components" class="resultsTable" style="margin-top: 4em;">
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Lowest</th>
+                    <th>2nd</th>
+                    <th>3rd</th>
+                    <th>4th</th>
+                    <th>5th</th>
+                    <th>6th</th>
+                    <th>7th</th>
+                    <th>8th</th>
+                    <th>9th</th>
+                    <th>Highest</th>
+                    <th>All</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Market income</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Social insurance</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Means-tested transfers</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Federal taxes</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Income after transfers and taxes</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="exportDataComponents" style="margin-top: 1em;" type="button">Download a copy of this table data (.csv)</button>
+        <h2>Average projected changes to income after transfers and taxes under policy change (<span class="yearRange"></span>)</h2>
+        <h3>2025 dollars</h3>
+        <table id="combined" class="resultsTable" style="margin-top: 4em;">
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Lowest</th>
+                    <th>2nd</th>
+                    <th>3rd</th>
+                    <th>4th</th>
+                    <th>5th</th>
+                    <th>6th</th>
+                    <th>7th</th>
+                    <th>8th</th>
+                    <th>9th</th>
+                    <th>Highest</th>
+                    <th>All</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>Total change (Billions of nominal dollars)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr> -->
+                <tr>
+                    <td>Total change (billions of 2025 dollars)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Share of total change (percent)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Annual average change per household (2025 dollars)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Annual average change per household (percent of current law income after transfers and taxes)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="exportData" style="margin-top: 1em;" type="button">Download a copy of this table data (.csv)</button>
+    </section>
+    <h2>Definitions</h2>
+    <p><strong>Federal taxes</strong> consist of individual income taxes, payroll taxes, corporate income taxes, and excise taxes. In this analysis, taxes for a given year are the amount a household owes on the basis of income received that year, regardless of when the taxes are paid. Taxes from those four sources accounted for over 90 percent of federal revenues. The remaining federal revenue sources not allocated to U.S. households include states’ deposits for unemployment insurance, estate and gift taxes, net income earned by the Federal Reserve, customs duties, and miscellaneous fees and fines.</p>
+    <p><strong>Income after transfers and taxes</strong> consists of market income, social insurance benefits, and means-tested transfers minus federal taxes.</p>
+    <p><strong>Income groups</strong> are created by ranking households by their size-adjusted income after transfers and taxes. A household consists of people who share a housing unit, regardless of their relationships. Each income decile (tenth) contains approximately equal numbers of people but slightly different numbers of households. If a household has negative income (that is, if its business or investment losses are larger than its other income), it is excluded from the lowest income group but included in totals.</p>
+    <p><strong>Market income</strong> consists of labor income, business income, capital income (including capital gains), income received in retirement for past services, and other nongovernmental sources of income.</p>
+    <p><strong>Means-tested transfers</strong> are cash payments and in-kind services provided through federal, state, and local government assistance programs. Eligibility to receive such transfers is determined primarily on the basis of income, which must be below certain thresholds. The largest transfer programs are Medicaid and the Children's Health Insurance Program (CHIP, measured as the average cost to the government of providing those benefits), SNAP (formerly known as the Food Stamp program), and Supplemental Security Income (SSI).</p>
+    <p><strong>Public goods</strong> are goods and services that share two main traits: If they are consumed by one person, the amount available to other people is not reduced; and it is difficult to prevent people from consuming them once they are available. </p>
+    <p><strong>Social insurance benefits</strong> consist of benefits from Social Security (Old-Age, Survivors, and Disability Insurance), Medicare (measured as the average cost to the government of providing those benefits), unemployment insurance, and workers’ compensation.</p>
+    <p>CBO seeks feedback to make its work as useful as possible. Please send comments to <a href="mailto:communications@cbo.gov">communications@cbo.gov</a>.</p>
+
+    <div id="dollarsTooltip" class="tooltip" style="display: none;">
+        <p style="text-align: center; margin: 0;"><strong>Household income decile: <span id="dollarsTooltipLabel"></span></strong></p>
+        <table>
+            <tbody>
+                <tr><td><span style="color: #BEDF6A;">◼</span> Federal taxes and cash transfers:</td><td></td></tr>
+                <tr><td><span style="color: #45BA97;">◼</span> Federal and state in-kind transfers:</td><td></td></tr>
+                <tr><td><span style="color: #4D849D;">◼</span> State financing:</td><td></td></tr>
+                <tr><td><span style="color: #6C4C67;">◼</span> Other revenue and spending changes:</td><td></td></tr>
+                <tr><td>◇ Net effect:</td><td></td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="pctTooltip" class="tooltip" style="display: none;">
+        <p style="text-align: center; margin: 0;"><strong>Household income decile: <span id="pctTooltipLabel"></span></strong></p>
+        <table>
+            <tbody>
+                <tr><td><span style="color: #BEDF6A;">◼</span> Federal taxes and cash transfers:</td><td></td></tr>
+                <tr><td><span style="color: #45BA97;">◼</span> Federal and state in-kind transfers:</td><td></td></tr>
+                <tr><td><span style="color: #4D849D;">◼</span> State financing:</td><td></td></tr>
+                <tr><td><span style="color: #6C4C67;">◼</span> Other revenue and spending changes:</td><td></td></tr>
+                <tr><td>◇ Net effect:</td><td></td></tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="d3.min.js"></script>
+<script src="main.js"></script>
+</html>
